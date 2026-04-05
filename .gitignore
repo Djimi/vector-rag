@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Saved index files (generated at runtime)
+saved_index/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+.env
+
+big_chunks.txt
+small_chunks.txt
+faiss_index.bin
+chunks_metadata.json
