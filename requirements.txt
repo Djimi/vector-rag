@@ -1,0 +1,12 @@
+faiss-cpu==1.8.0
+openai>=1.66.0
+numpy==1.26.4
+python-dotenv==1.0.1
+sentence-transformers==3.0.1
+tiktoken==0.7.0
+pydantic==2.6.4
+jupyterlab==4.5.6
+matplotlib==3.10.8
+ipykernel==6.29.5
+scikit-learn==1.4.2
+pymupdf==1.27.2

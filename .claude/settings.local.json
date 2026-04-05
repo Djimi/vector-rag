@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip index:*)",
+      "Bash(python -m venv d:/CodingProjects/SoftUniLLMProject/.venv)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(.venv/Scripts/python.exe -m pip install --quiet -r requirements.txt)",
+      "Bash(.venv/Scripts/python.exe -m pip install -r requirements.txt)",
+      "Bash(.venv/Scripts/python.exe create_notebook.py)",
+      "Bash(.venv/Scripts/python.exe -m ipykernel install --user --name=softuni-llm --display-name=\"Python \\(.venv\\)\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\(''d:/CodingProjects/SoftUniLLMProject/TestProject.ipynb'',''r'',encoding=''utf-8''\\)\\); print\\(f''Total cells: {len\\(nb[\"\"cells\"\"]\\)}''\\); [print\\(f''Cell {i}: {c[\"\"cell_type\"\"]} - first 80 chars: {str\\(c.get\\(\"\"source\"\",\"\"\"\"\\)\\)[:80]}''\\) for i,c in enumerate\\(nb[''cells'']\\)]\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\(''d:/CodingProjects/SoftUniLLMProject/Playground.ipynb'',''r'',encoding=''utf-8''\\)\\); print\\(f''Total cells: {len\\(nb[\"\"cells\"\"]\\)}''\\); [print\\(f''Cell {i}: {c[\"\"cell_type\"\"]} - first 80 chars: {str\\(c.get\\(\"\"source\"\",\"\"\"\"\\)\\)[:80]}''\\) for i,c in enumerate\\(nb[''cells'']\\)]\")",
+      "Bash(.venv/Scripts/python.exe -c \":*)",
+      "Bash(python -c \"import json; d=json.load\\(open\\(''d:/CodingProjects/SoftUniLLMProject/chunks_metadata.json''\\)\\); print\\(''Keys:'', list\\(d.keys\\(\\)\\)\\); print\\(''Num chunks:'', len\\(d[''chunks'']\\)\\); print\\(''First chunk:'', d[''chunks''][0]\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\(''d:/CodingProjects/SoftUniLLMProject/rag_clean_code_system.ipynb''\\)\\); print\\(''Num cells:'', len\\(d[''cells'']\\)\\); print\\(''Cell types:'', [c[''cell_type''] for c in d[''cells'']]\\)\")",
+      "Read(//d d:/CodingProjects/**)",
+      "Bash(python3:*)",
+      "Bash(python \"d:\\\\CodingProjects\\\\SoftUniLLMProject\\\\test_toc.py\")",
+      "Bash(\"d:\\\\CodingProjects\\\\SoftUniLLMProject\\\\.venv\\\\Scripts\\\\python.exe\" \"d:\\\\CodingProjects\\\\SoftUniLLMProject\\\\test_toc.py\")",
+      "Bash(python -c \":*)",
+      "Bash(python RAG_with_TOC.py)",
+      "Bash(python -c ':*)"
+    ]
+  }
+}
