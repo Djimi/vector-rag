@@ -26,5 +26,5 @@ Thumbs.db
 
 big_chunks.txt
 small_chunks.txt
-faiss_index.bin
 chunks_metadata.json
+chunks.index
